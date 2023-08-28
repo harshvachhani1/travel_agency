@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registraion form</legend>
+    <table bgcolor="lightblue" cellpadding="15" align="center" border="2">
+        <form>
+            <tr>
+                <td>
+                    <a href="index.html">Back</a>
+                </td>
+            </tr>
+            <tr>
+                <td>User Name:<sup>*</sup></td>
+                <td><input type="text" size="30" maxlength="10" placeholder="Enter User Name" autocomplet="off" required autofocus /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" maxlength="6" size="30" placeholder="Enter Your Password"/></td>
+            </tr>	
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gen" checked />Male <input type="radio" name="gen" />Female</td>
+            </tr>
+            <tr>
+                <td>Intrest:</td>
+                <td>
+                    <input type="checkbox" checked />Music
+                    <input type="checkbox" /> Reading
+                    <input type="checkbox" /> News
+                </td>
+            </tr>
+            <tr>
+                <td>Adress</td>
+                <td><textarea rows="5" cols="30"></textarea> </td>
+            </tr>
+            <tr>
+                 <td>City:</td>
+                <td>
+                    <select>
+                        <option>Rajkot</option>
+                        <option>Surat</option>
+                        <option>Baroda</option>
+                        <option>Junagadh</option>
+                        <option>Amreli</option>
+                        <option selected>Ahmedabad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Birth Date:</td>
+                <td><input type="date" /></td>
+            </tr>				
+            <tr>
+                <td>Price Range:</td>
+                <td>1<input type="range" />10</td>
+            </tr>
+            <tr>
+                <td>color:</td>					
+                <td><input type="color" /></td>
+            </tr>
+            <tr>
+                <td>Upload:</td>
+                <td><input type="file" /></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" placeholder="Email Id"  /></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" value="15" max="50" min="15" /></td>
+            </tr>
+            <tr>
+                <td colspan="2	"><input type="submit" value="OK" />
+                <input type="reset" value="Reset" /></td>
+            </tr>
+        </form>
+    </table>
+</fieldset>
+</body>
+</html>
